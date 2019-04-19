@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Person {
-    private String firstName;
+public class Person extends BaseEntity{
+        private String firstName;
     private String lastName;
 }
