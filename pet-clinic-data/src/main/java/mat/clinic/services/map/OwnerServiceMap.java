@@ -1,7 +1,7 @@
-package services.map;
+package mat.clinic.services.map;
 
-import model.Owner;
-import services.CrudService;
+import mat.clinic.model.Owner;
+import mat.clinic.services.CrudService;
 
 import java.util.Set;
 

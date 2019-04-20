@@ -1,7 +1,7 @@
-package services.map;
+package mat.clinic.services.map;
 
-import model.Pet;
-import services.CrudService;
+import mat.clinic.model.Pet;
+import mat.clinic.services.CrudService;
 
 import java.util.Set;
 

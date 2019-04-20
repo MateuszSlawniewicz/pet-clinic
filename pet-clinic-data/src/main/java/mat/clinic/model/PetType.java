@@ -1,4 +1,4 @@
-package model;
+package mat.clinic.model;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,6 @@
-package services;
+package mat.clinic.services;
 
-import model.Owner;
+import mat.clinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
     Owner findByLastName(String lastName);

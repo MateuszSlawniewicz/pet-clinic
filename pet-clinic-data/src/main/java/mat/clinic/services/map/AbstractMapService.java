@@ -1,4 +1,4 @@
-package services.map;
+package mat.clinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;
