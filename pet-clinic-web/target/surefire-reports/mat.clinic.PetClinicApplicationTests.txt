@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: mat.clinic.PetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.068 s - in mat.clinic.PetClinicApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.21 s - in mat.clinic.PetClinicApplicationTests
