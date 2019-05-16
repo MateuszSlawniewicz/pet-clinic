@@ -1,11 +1,11 @@
 package mat.clinic.services.map;
 
 import mat.clinic.model.Speciality;
-import mat.clinic.services.SpecialitesService;
+import mat.clinic.services.SpecialityService;
 
 import java.util.Set;
 
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialitesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
