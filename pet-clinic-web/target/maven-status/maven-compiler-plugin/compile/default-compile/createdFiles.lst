@@ -1,5 +1,0 @@
-mat\clinic\PetClinicApplication.class
-mat\clinic\bootstrap\DataLoader.class
-mat\clinic\controllers\OwnerController.class
-mat\clinic\controllers\IndexController.class
-mat\clinic\controllers\VetController.class

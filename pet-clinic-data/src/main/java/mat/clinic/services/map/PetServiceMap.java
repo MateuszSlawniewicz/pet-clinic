@@ -2,11 +2,12 @@ package mat.clinic.services.map;
 
 import mat.clinic.model.Pet;
 import mat.clinic.services.CrudService;
+import mat.clinic.services.PetService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
@@ -15,7 +16,6 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements Crud
     @Override
     public void deleteById(Long id) {
         super.deleteById(id);
-
     }
 
     @Override
