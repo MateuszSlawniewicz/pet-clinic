@@ -16,10 +16,13 @@ import java.util.Set;
 public class OwnerSDJpaService implements OwnerService {
 
     private final OwnerRepository ownerRepository;
+    private final PetTypeRepository petTypeRepository;
+    private final PetRepository petRepository;
 
-    public OwnerSDJpaService(OwnerRepository ownerRepository) {
+    public OwnerSDJpaService(OwnerRepository ownerRepository, PetTypeRepository petTypeRepository, PetRepository petRepository) {
         this.ownerRepository = ownerRepository;
-
+        this.petTypeRepository = petTypeRepository;
+        this.petRepository = petRepository;
     }
 
     @Override
